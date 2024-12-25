@@ -1,1 +1,1 @@
-https://github.com/Lindmeyer/first-project
+https://github.com/Lindmeyer/ono-tebe-nado-fd

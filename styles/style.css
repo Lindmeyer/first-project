@@ -82,7 +82,7 @@
 }
 
 .cover_title span {
-  font-size: 100px;
+  font-size: 90px;
   font-weight: 700;
   line-height: 100%;
   letter-spacing: 30px;
@@ -115,11 +115,11 @@
 }
 
 .text_cover .no_space {
-  letter-spacing: 0%;
+  letter-spacing: 10px;
 
 }
 
-.text_cover .letter_spacing {
+.text_cover {
   letter-spacing: 60px;
 }
 
