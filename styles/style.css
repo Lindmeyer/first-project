@@ -2,10 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding-top: 92px;
-  padding-left: 24px;
-  padding-bottom: 92px;
-  padding-right: 24px;
+  padding: 92px 24px;
 }
 
 .header_menu {
@@ -52,7 +49,7 @@
 
 .cover {
   position: relative;
-  background-image: url(/images/cover.jpg);
+  background-image: url(../images/cover.jpg);
   background-size: cover;
   color: white;
   text-transform: uppercase;
@@ -82,7 +79,7 @@
 }
 
 .cover_title span {
-  font-size: 90px;
+  font-size: 100px;
   font-weight: 700;
   line-height: 100%;
   letter-spacing: 30px;
@@ -91,10 +88,8 @@
 .text_cover {
   align-self: flex-start;
   line-height: 115%;
-  transform: translateY(2px);
   text-align: center;
   margin-right: 20px;
-  
 }
 
 .text_center {
@@ -108,21 +103,13 @@
   text-align: right;
 }
 
-
 .text_cover .spacing {
   letter-spacing: 10px;
-  
-}
-
-.text_cover .no_space {
-  letter-spacing: 10px;
-
 }
 
 .text_cover {
   letter-spacing: 60px;
 }
-
 
 .cover_description {
   display: flex;
@@ -193,15 +180,15 @@
 }
 
 .card_about_cinema {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_about_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_about_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card_title {
@@ -280,6 +267,10 @@
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
 }
 
 .text_up {
